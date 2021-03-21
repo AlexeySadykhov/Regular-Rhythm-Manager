@@ -198,7 +198,7 @@ class mywindow(QtWidgets.QMainWindow):
             else:
                 final_beat_data = beat_data
             beats = [ ]
-            for x in beat_data:
+            for x in final_beat_data:
                 if type(x) == int:
                     beats.append(x)
                 else:
